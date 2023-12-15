@@ -1,0 +1,126 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 p-0">
+            <div class="dashboard p-3"> 
+                <h3>Step 2</h3>
+                <p>Add Your Goal</p>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card p-5">
+                <section class="goalModel">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn save_btn_color text-white rounded-0 shadow" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Add Goal</button>
+                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header justify-content-end">
+                                                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                                                    <button type="button" class="btn" data-bs-dismiss="modal"><span class="p-2"
+                                                            style="color: #ff3300;">Delete this Goal</span><i class="fa-solid fa-trash-can "
+                                                            style="color: #ff3300;"></i></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="border p-2">
+                                                                    <label class="text-muted fw-semibold mb-2">Goal Name</label>
+                                                                    <input class="form-control form-control-md rounded-0 border-0" type="text"
+                                                                        placeholder="Enter Your Goal Name.."
+                                                                        aria-label=".form-control-md example">
+                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer justify-content-center">
+                    
+                                                    <button type="button"
+                                                        class="btn save_btn_color text-white rounded-0 shadow">Save</button>
+                                                    <button type="button" class="btn btn-white rounded-0 shadow" data-bs-dismiss="modal"
+                                                        style="color: #ff3300;">Cancel</button>
+                    
+                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+            </div>
+            <div>
+
+            </div>
+
+        </div>
+        <div class="col-6 ">
+            <div class="row">
+                <div class="col-12">
+                    <div class="fitness-health"><img src="../../assets/fitness.jpeg" style="height: 50%; width:50%">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="my-3">
+
+                        <input type="text" name="GoalName" class="form-control" placeholder="Goal Name">
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mt-2">
+                        <input type="date" name="goaldate" class="form-control">
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mt-2">
+                        <input type="date" name="endDate" class="form-control">
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mt-2">
+                        <textarea name="description" cols="10" rows="5" class="form-control" placeholder="Enter Goal description"></textarea>
+
+
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="mt-2">
+                        <button type="button" class="btn btn-primary">Save gole</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mt-2">
+                        <button type="button" class="btn btn-success" routerLink="/category">Next Stop:Achive</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+

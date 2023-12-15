@@ -1,0 +1,32 @@
+.dashboard {
+    background-color: rgb(29, 29, 66);
+    height: 100vh;
+    color: aliceblue;
+}
+
+.plan-out {
+    text-align: center;
+}
+
+
+
+.save_btn_color{
+    background-color: #ff3300;
+}
+.modal-content{
+    top:8rem;
+    border-radius: 0% !important;
+    border: 0 !important;
+}
+.form-control:focus {
+    color: none !important;
+    background-color: var(--bs-body-bg);
+    border-color:  white !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.modal-header{
+    border-bottom: 0 !important;
+}
+
