@@ -25,18 +25,12 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
             ]
-=======
-              "src/styles.css"
-            ],
-            "scripts": []
->>>>>>> afb8a9e0c405fe4dcd230005647476ee37445b66
           },
           "configurations": {
             "production": {
@@ -60,7 +54,6 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-<<<<<<< HEAD
               "namedChunks": true,
               "fileReplacements": [
                 {
@@ -68,9 +61,6 @@
                   "with": "src/environments/environment.development.ts"
                 }
               ]
-=======
-              "namedChunks": true
->>>>>>> afb8a9e0c405fe4dcd230005647476ee37445b66
             }
           },
           "defaultConfiguration": "production"
@@ -113,11 +103,8 @@
         }
       }
     }
-<<<<<<< HEAD
   },
   "cli": {
     "analytics": "4eeee142-1e8d-4bfc-be04-56cb8d0e4afa"
-=======
->>>>>>> afb8a9e0c405fe4dcd230005647476ee37445b66
   }
 }
